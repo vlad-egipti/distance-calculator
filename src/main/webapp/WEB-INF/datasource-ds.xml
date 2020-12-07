@@ -1,0 +1,12 @@
+<datasources>
+    <datasource jta="true" jndi-name="java:/magenta/datasource/test-distance-calculator" pool-name="test-distance-calculator">
+        <connection-url>jdbc:mysql://localhost:3306/distance_calculator?serverTimezone=UTC</connection-url>
+        <driver>
+            distance-calculator.war_com.mysql.cj.jdbc.Driver_8_0
+        </driver>
+        <security>
+            <user-name>root</user-name>
+            <password>root</password>
+        </security>
+    </datasource>
+</datasources>
